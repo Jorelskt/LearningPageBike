@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rampart+One&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #1A120B;
+}
+
+.acimai{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.acimaimage{
+    height: 73px;
+}
+
+.escolhas{
+    display: flex;
+    gap: 80px;
+}
+
+.escolha-item{
+    font-family: 'Sarala', sans-serif;
+    color: #F0EEED;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.escolha-item:hover{
+    background-color: #99A799;
+}
+
+.meio{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FEFBE9;
+}
+
+.meio-primeiro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.meio-escritura{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.meio-titulum{
+    font-family: 'Lilita One', cursive;
+    color: #FCFFE7;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.meio-titulo{
+    font-family: 'Rampart One', cursive;
+    color: #FCFFE7;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.meio-botao{
+    background-color: #413F42;
+    width: 180px;
+    height: 65px;
+    border: none;
+    box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.meio-botao:hover{
+    background-color: #323232;
+}
+
+.meio-image{
+    height: 500px;
+}
+
+.final-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.final-partum{
+    border-top: 0.4px solid #FEFBE9;
+    padding-top: 50px;
+    font-family: 'Lilita One', cursive;
+    color: #EBD8C3;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.final-escrita{
+    font-family: 'Sarala', sans-serif;
+    color: #FCFFE7;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.final-page{
+    border-top: 0.4px solid #FEFBE9;
+    padding: 30px;
+}
+
+.final-page-image{
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
